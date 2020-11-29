@@ -1,0 +1,87 @@
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   By:youthenlight.com
+   ========================================================================== */
+
+
+/* (1920x1080) Full HD Display */
+
+@media  screen and (max-width: 1920px) {}
+
+/* (1366x768) WXGA Display */
+@media  screen and (max-width: 1366px) {}
+/*---------------- iPads (portrait and landscape) ---------------------- */
+@media only screen and (min-device-width: 980px) and (max-device-width: 1280px) {
+  .hero-text h1 {
+	color: green;
+}
+   
+}
+/*------------------- iPads (portrait and landscape) -------------------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 980px) {
+     .hero-text h1 {
+	color: red;
+}
+    
+    
+}
+
+/*-----------------=== smartphones (portait and landscape)===-----------------------*/
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 640px) {
+	.hero-text h1 {
+	color: yellow;
+}
+    .welcome-area {
+	height: auto;
+}
+ .hero-area-table {
+	display: block;
+	height: auto;
+} 
+.logo {
+	text-align: center;
+	margin-bottom: 15px;
+}	
+.main-manu {
+	text-align: center;
+}	
+.copyright-area {
+	position: relative;
+	text-align: center;
+}	
+	.copyright-area ul{
+		text-align: center;
+	}	
+	.copyright-area li{
+		padding-left: 15px;
+		padding-right: 15px;
+		margin-top: 15px;
+	}
+	.hero-text {
+	padding-top: 150px;
+	padding-bottom: 50px;
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
+/*=================   iPad  landscape  =======================*/
+

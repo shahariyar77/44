@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300; 400;0,700;0,900;1,100;1,400&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    
+}
+.welcome-area{
+	background-image: url(img/download.jpg);
+	background-size: cover;
+	height: 100%;
+	background-position: center;
+	background-color: #333;
+	
+}
+/*========================   Nav manu ==================*/
+
+.hero-text h1 {
+  font-size: 50px;
+  font-weight: 800;
+}
+.hero-area-table {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+.hero-area-tablecel {
+  display: table-cell;
+  vertical-align: middle;
+}
+.hero-text p {
+  font-size: 20px;
+  font-weight: 300;
+}
+.email-suscribe-from {
+  margin-top: 50px;
+}
+.email-suscribe-from p {
+  font-size: 14px;
+}
+.email-suscribe-from input[type=email] {
+  background: #fff;
+  border: none;
+  padding: 14px;
+  font-weight: 400;
+  border-radius: 5px;
+  width: 50%;
+  margin-right: 2%;
+}
+button[type=submit] {
+  color: #fff;
+  background: #ec4248;
+  border: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 14px 20px;
+  border-radius: 5px;
+}
+.email-suscribe-from {
+  max-width: 500px;
+}
+.social-icon a {
+  color: #333;
+  font-size: 20px;
+  display: inline-block;
+  margin-top: 10px;
+  padding-right: 10px;
+}
+
+.welcome-area {
+  position: relative;
+  z-index: 1;
+}
+.welcome-area::after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  content: "";
+  background: #fff;
+  z-index: -1;
+  opacity: .8;
+}
+.logo img {
+  max-width: 40px;
+  padding-right: 5px;
+}
+.logo a {
+  color: #ec4248;
+}
+.logo h1 {
+  font-size: 20px;
+  font-weight: 800;
+  margin: 0;
+}
+.main-manu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.main-manu li {
+  display: inline-block;
+}
+.main-manu li a {
+  color: #333;
+  display: block;
+  padding: 10px 25px;
+  border-radius: 50px;
+}
+.main-manu li.border a {
+  color: #ec4248;
+  border: 1px solid;
+}
+.logo {
+  margin-top: 4px;
+}
+.header-area {
+  padding: 15px 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 9;
+}
+.copyright-area {
+  background: #313f3d;
+  font-size: 85%;
+  padding: 10px 0;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 9;
+}
+.copyright-area, .copyright-area a {
+  color: #999;
+}
+.copyright-area ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.copyright-area li {
+  display: inline-block;
+  padding-left: 30px;
+}
+body, html {
+	height: 100%;
+}
+
+
